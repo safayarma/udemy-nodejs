@@ -1,3 +1,6 @@
+//First few parts
+/*
+
 const name = 'Don';
 let age = 29;
 const hasHobbies = true;
@@ -25,3 +28,16 @@ const addRandom = () => 1 + 2;
 console.log(addRandom());
 
 console.log(summarizeUser(name, age, hasHobbies));
+
+*/
+
+const person = {
+	name: 'Don',
+	age: 29,
+	greet() {
+		console.log('Hi, I am ' + this.name);
+	}
+};
+
+person.greet();
+
