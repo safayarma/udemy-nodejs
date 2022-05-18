@@ -31,6 +31,8 @@ console.log(summarizeUser(name, age, hasHobbies));
 
 */
 
+// Objects, properties, and methods 
+/*
 const person = {
 	name: 'Don',
 	age: 29,
@@ -40,4 +42,34 @@ const person = {
 };
 
 person.greet();
+*/
+
+const hobbies = ['Sports', 'Cooking'];
+//for (let hobby of hobbies){
+//	console.log(hobby)
+//}
+console.log(hobbies.map(hobby => 'Hobby: hobby'));
+console.log(hobbies);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
