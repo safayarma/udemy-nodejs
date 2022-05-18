@@ -32,7 +32,7 @@ console.log(summarizeUser(name, age, hasHobbies));
 */
 
 // Objects, properties, and methods 
-/*
+
 const person = {
 	name: 'Don',
 	age: 29,
@@ -41,8 +41,9 @@ const person = {
 	}
 };
 
-person.greet();
-*/
+const coppiedPerson = {...person};
+console.log(person);
+
 
 const hobbies = ['Sports', 'Cooking'];
 //for (let hobby of hobbies){
@@ -50,12 +51,15 @@ const hobbies = ['Sports', 'Cooking'];
 //}
 //console.log(hobbies.map(hobby => 'Hobby: hobby'));
 //console.log(hobbies);
-hobbies.push('Programming');
-console.log(hobbies);
+const coppiedArray = [...hobbies];
+console.log(coppiedArray);
 
 
+const toArray = (...args) => {
+	return args;
+}
 
-
+console.log(toArray(1, 2, 3, 4));
 
 
 
