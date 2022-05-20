@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-first-server",
+  "version": "1.0.0",
+  "description": "First nodejs server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Safa Mesdaghi Al-azem",
+  "license": "ISC"
+}
